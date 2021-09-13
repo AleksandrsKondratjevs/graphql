@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    ScandiPWA
+ * @package     ScandiPWA_GraphQl
+ * @author      scandiweb <info@scandiweb.com>
+ * @copyright   Copyright (c) 2021 Scandiweb, Ltd (https://scandiweb.com)
+ */
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/Module/etc/module.xsd">
+    <module name="ScandiPWA_GraphQl">
+        <sequence>
+            <module name="Magento_GraphQl"/>
+            <module name="Magento_Framework"/>
+        </sequence>
+    </module>
+</config>
